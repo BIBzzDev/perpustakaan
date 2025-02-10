@@ -1,68 +1,67 @@
+---
+
 📚 Perpustakaan Digital
 
 🚀 Project UKK RPL 2024 - Sistem Manajemen Perpustakaan Berbasis Web
 
 
 
-📖 Tentang Proyek
 
-Perpustakaan Digital adalah sebuah sistem berbasis web yang dirancang untuk mempermudah pengelolaan perpustakaan, termasuk administrasi buku, anggota, peminjaman, dan pengembalian buku. Proyek ini dibuat sebagai bagian dari Ujian Kompetensi Keahlian (UKK) RPL 2024, dengan fokus pada efisiensi dan kemudahan penggunaan.
+---
 
-🔹 Dibangun dengan: PHP, MySQL, Bootstrap
-🔹 Tujuan: Digitalisasi perpustakaan sekolah untuk meningkatkan aksesibilitas dan manajemen data
-🔹 Status: ✅ Selesai dan siap digunakan
+👋 Hello, I'm Muhammad Labib!
+
+Lifelong learner and passionate about building powerful digital solutions. This is my project for the Ujian Kompetensi Keahlian (UKK) RPL 2024, which aims to create a digital library system for easy management of library books, members, and transactions.
 
 
 ---
 
-🎯 Fitur Utama
+🔧 Tools & Technologies
 
-✅ Manajemen Buku → Tambah, Edit, Hapus, dan Cari Buku
-✅ Manajemen Anggota → Kelola data anggota perpustakaan
-✅ Peminjaman & Pengembalian → Catat transaksi peminjaman dan pengembalian buku
-✅ Laporan & Riwayat → Melihat histori peminjaman dan pengembalian buku
-✅ Dashboard Interaktif → Statistik dan data penting dalam satu tempat
-
-
+<p>
+    <img src="https://img.shields.io/badge/Language-PHP-blue?&logo=php&logoColor=white" />
+    <img src="https://img.shields.io/badge/Database-MySQL-blue?&logo=mysql&logoColor=white" />
+    <img src="https://img.shields.io/badge/Framework-Laravel-blue?&logo=laravel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Frontend-Bootstrap-blue?&logo=bootstrap&logoColor=white" />
+    <img src="https://img.shields.io/badge/Server-XAMPP-blue?&logo=xampp&logoColor=white" />
+</p>
 ---
 
-🛠️ Instalasi & Setup
+📥 How to Get Started
 
-1️⃣ Clone Repository
+1️⃣ Clone the Repository
 
-Pastikan kamu sudah menginstal Git di perangkat. Kemudian jalankan perintah berikut di Command Prompt (CMD) / Termux:
+To get started with this project, clone the repository to your local machine using the command below:
 
 git clone https://github.com/BIBzzDev/xiirpl4_labib_perpustakaan.git
 
-Setelah proses selesai, pindahkan folder hasil clone ke dalam direktori server lokal:
-
-C:/xampp/htdocs/xiirpl4_labib_perpustakaan
+<p align="center">
+  <button onclick="navigator.clipboard.writeText('git clone https://github.com/BIBzzDev/xiirpl4_labib_perpustakaan.git')" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; border-radius: 5px; text-decoration: none;">Copy Clone Command</button>
+</p>Alternatively, you can click the button below to copy the command:
 
 
 ---
 
-2️⃣ Konfigurasi Database
+2️⃣ Set Up the Database
 
-1. Jalankan XAMPP dan aktifkan Apache serta MySQL.
+1. Install XAMPP and start Apache and MySQL.
 
 
-2. Buka phpMyAdmin dengan mengakses:
+2. Go to phpMyAdmin via:
 
 http://localhost/phpmyadmin
 
 
-3. Buat database baru dengan nama:
-
-perpustakaan
+3. Create a new database called perpustakaan.
 
 
-4. Import database dari file database.sql yang ada di dalam folder proyek.
+4. Import the database.sql file into your database:
 
-Klik Import
+Click Import
 
-Pilih file database.sql
+Select the database.sql file from the repository
 
-Klik Go untuk menyelesaikan proses impor
+Click Go
 
 
 
@@ -70,122 +69,97 @@ Klik Go untuk menyelesaikan proses impor
 
 ---
 
-3️⃣ Menjalankan Proyek
+3️⃣ Running the Project
 
-Setelah database dikonfigurasi, buka browser dan akses:
+Once the database is set up, you can run the project:
+
+1. Move the project folder into your XAMPP htdocs directory (or your server directory).
+
+
+2. Access the app by visiting:
 
 http://localhost/xiirpl4_labib_perpustakaan
 
-🔑 Akun Default untuk Login:
 
-Admin:
+3. Log in using the default admin credentials:
 
 Username: admin
 
 Password: admin
 
 
-Anggota Perpustakaan:
-
-Username: anggota01
-
-Password: 123456
-
 
 
 
 ---
 
-📂 Struktur Folder
+🌟 Features
 
-/xiirpl4_labib_perpustakaan
-│── /assets       → File CSS, JavaScript, dan gambar  
-│── /config       → File konfigurasi database dan koneksi  
-│── /controllers  → Logic aplikasi  
-│── /views        → Tampilan halaman web  
-│── /models       → Query database  
-│── database.sql  → Struktur dan data awal database  
-│── index.php     → File utama aplikasi  
-└── README.md     → Dokumentasi proyek
+✅ Book Management - Add, Edit, Delete, and Search Books
+✅ Member Management - Manage library member details
+✅ Borrowing & Returning Books - Record book borrowing and returns
+✅ Transaction History & Reports - View borrowing and return history
+✅ Admin Dashboard - Quick statistics and insights
 
 
 ---
 
-💡 Cara Penggunaan
+🛠️ Technologies Used
 
-1. Login sebagai admin untuk mengelola data buku dan anggota.
+PHP - Backend programming language
 
+MySQL - Database management
 
-2. Tambah data buku sebelum bisa dipinjam oleh anggota.
+Laravel - PHP framework for backend
 
+Bootstrap 5 - Frontend framework for responsive UI
 
-3. Registrasi anggota dilakukan oleh admin sebelum mereka bisa login.
+JavaScript - For dynamic frontend interactions
 
-
-4. Peminjaman Buku:
-
-Pilih buku yang tersedia
-
-Masukkan data anggota
-
-Tentukan tanggal peminjaman
-
-Simpan transaksi
-
-
-
-5. Pengembalian Buku:
-
-Cek daftar peminjaman
-
-Konfirmasi pengembalian
-
-Denda akan dihitung otomatis jika terlambat
-
-
+XAMPP - Local development server
 
 
 
 ---
 
-🌐 Teknologi yang Digunakan
+💬 Let's Connect!
 
-🔹 PHP (Native) - Backend
-🔹 MySQL - Database
-🔹 Bootstrap 5 - Frontend
-🔹 JavaScript (jQuery) - Interaksi UI
-🔹 XAMPP - Server lokal
+Feel free to reach out for discussions, suggestions, or feedback. I am always open to learning new things and improving!
 
-
----
-
-🛠️ Troubleshooting
-
-Q: Website tidak bisa diakses?
-A: Pastikan XAMPP sudah berjalan dan Apache serta MySQL dalam keadaan aktif.
-
-Q: Database tidak ditemukan?
-A: Pastikan database sudah dibuat dan file database.sql telah di-import dengan benar.
-
-Q: Tidak bisa login?
-A: Gunakan akun default di atas. Jika masih gagal, cek tabel users di database dan reset passwordnya.
+📧 Email: muhammadlabib895@gmail.com
+🌐 Website: BIBzz
 
 
 ---
 
-📌 Kontributor
+📲 Follow Me!
 
-💻 Muhammad Labib (Developer)
+<a href="https://www.tiktok.com/@yooleejin9">
+  <img align="left" alt="Muhammad Labib's TikTok" width="20px" src="https://simpleicons.now.sh/tiktok/495f7e" />
+</a>
+<a href="https://wa.me/08381882551">
+  <img align="left" alt="Muhammad Labib's WhatsApp" width="20px" src="https://simpleicons.now.sh/whatsapp/495f7e" />
+</a>
+---
 
-Ingin berkontribusi? Silakan fork repository ini dan buat pull request! 🚀
+📜 License
+
+This project is open source and can be modified or used as per the license terms. Created for the UKK RPL 2024 and can be further developed as needed.
 
 
 ---
 
-📜 Lisensi
+✨ Acknowledgments
 
-Proyek ini dibuat untuk keperluan UKK RPL 2024 dan dapat digunakan serta dikembangkan oleh siapa saja.
+Thanks to PHP, MySQL, and Bootstrap for providing amazing tools and frameworks.
 
-📌 GitHub Repository: BIBzzDev/xiirpl4_labib_perpustakaan
+Huge shoutout to the RPL 2024 community for helping me stay motivated!
 
-🚀 Selamat menggunakan Perpustakaan Digital! Jika ada pertanyaan, silakan hubungi saya!
+
+
+---
+
+Enjoy using and contributing to this project! Let me know if you have any questions or suggestions! 😄
+
+
+---
