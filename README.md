@@ -1,71 +1,159 @@
-Perpustakaan Digital
+# 📚 Perpustakaan Digital
 
-![Product Name Screen Shot][product-screenshot]
+[![Tangkapan Layar Produk](https://tse3.mm.bing.net/th?id=OIP.N4X2rJA2aMi_h6GdjNyoCgHaHa&pid=Api)](https://id.pinterest.com/pin/26036504091590663/)
 
-Perpustakaan Digital adalah aplikasi untuk mengelola sistem peminjaman buku secara online. Proyek ini adalah bagian dari ujian kompetensi kejuruan (UKK) SMK 2024. Aplikasi ini memiliki tiga level pengguna: Admin, Petugas, dan Peminjam. Setiap level memiliki hak akses dan batasan masing-masing, kecuali untuk Admin yang memiliki akses penuh untuk mengelola seluruh sistem.
+**Perpustakaan Digital** adalah aplikasi untuk mengelola sistem peminjaman buku secara online. Proyek ini merupakan bagian dari **Ujian Kompetensi Kejuruan (UKK) SMK 2024**.
 
-Aplikasi ini dibangun menggunakan PHP dan MySQL, serta dapat diakses dengan cara mudah dan langsung digunakan setelah mengikuti langkah-langkah instalasi.
+Aplikasi ini memiliki **tiga level pengguna**:
+- 👤 **Admin** – Memiliki akses penuh untuk mengelola seluruh sistem.
+- 🛠️ **Petugas** – Mengelola peminjaman dan pengembalian buku.
+- 📖 **Peminjam** – Dapat mencari dan meminjam buku.
 
-Table of Contents
+Aplikasi ini dibangun menggunakan **PHP & MySQL** serta dapat langsung digunakan setelah instalasi.
+
+---
+
+## 📌 Daftar Isi
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>📜 Daftar Isi</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#-tentang-proyek">ℹ️ Tentang Proyek</a></li>
+    <li><a href="#-dibuat-dengan">🛠️ Dibuat Dengan</a></li>
+    <li><a href="#-memulai">🚀 Memulai</a></li>
+    <li><a href="#-penggunaan">📖 Penggunaan</a></li>
+    <li><a href="#-peta-jalan">🗺️ Peta Jalan</a></li>
+    <li><a href="#-berkontribusi">🤝 Berkontribusi</a></li>
+    <li><a href="#-lisensi">📜 Lisensi</a></li>
+    <li><a href="#-kontak">📧 Kontak</a></li>
+    <li><a href="#-ucapan-terima-kasih">🙏 Ucapan Terima Kasih</a></li>
   </ol>
-</details>About The Project
+</details>
 
-![Product Screenshot][product-screenshot]
+---
 
-Aplikasi Perpustakaan Digital ini memiliki fitur utama untuk mengelola buku, peminjaman, pengembalian, serta keanggotaan pengguna dengan berbagai level akses. Berikut adalah rincian dari masing-masing level:
+## ℹ️ Tentang Proyek
 
-Admin: Memiliki hak penuh untuk menambah, mengedit, dan menghapus data buku, pengguna, serta peminjaman. Dapat melihat laporan aktivitas dan statistik.
+Aplikasi **Perpustakaan Digital** ini memiliki fitur utama untuk mengelola **buku**, **peminjaman**, **pengembalian**, serta **keanggotaan pengguna** dengan berbagai level akses.
 
-Petugas: Bisa menambahkan peminjaman buku dan mengelola pengembalian, namun tidak dapat mengubah data buku atau pengguna.
+### 🎯 Hak Akses Pengguna
+- 👤 **Admin**:
+  - ✔️ Menambah, mengedit, dan menghapus data buku, pengguna, serta peminjaman.
+  - 📊 Melihat laporan aktivitas dan statistik.
+- 🛠️ **Petugas**:
+  - ✔️ Mengelola peminjaman dan pengembalian buku.
+  - ❌ Tidak dapat mengubah data buku atau pengguna.
+- 📖 **Peminjam**:
+  - ✔️ Melihat buku yang tersedia dan meminjam buku.
+  - ❌ Tidak dapat mengubah data atau melihat laporan.
 
-Peminjam: Hanya dapat melihat buku yang tersedia dan meminjam buku. Tidak dapat mengubah data atau melihat laporan.
+Proyek ini **siap digunakan** untuk keperluan **ujian** maupun **implementasi nyata**.
 
+[🔝 Kembali ke Atas](#-daftar-isi)
 
-Proyek ini selesai dan siap digunakan untuk keperluan ujian dan implementasi di dunia nyata.
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>Built With
+## 🛠️ Dibuat Dengan
 
-PHP: Bahasa pemrograman untuk backend aplikasi.
+- 🐘 **PHP** – Backend aplikasi
+- 🐬 **MySQL** – Database untuk menyimpan data
+- 🎨 **Bootstrap** – Framework CSS untuk tampilan frontend
+- 🌀 **Git** – Version control untuk mengelola perubahan kode
 
-MySQL: Database untuk menyimpan data buku, pengguna, dan peminjaman.
+[🔝 Kembali ke Atas](#-daftar-isi)
 
-Bootstrap: Framework CSS untuk tampilan frontend.
+---
 
-Git: Version control untuk mengelola perubahan kode.
+## 🚀 Memulai
 
+Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>Getting Started
+### 🔧 Prasyarat
 
-Ikuti langkah-langkah berikut untuk memulai proyek ini secara lokal.
+Pastikan Anda memiliki perangkat lunak berikut:
 
-Prerequisites
+- 🐘 **PHP** (≥ 7.4)
+- 🐬 **MySQL** (≥ 5.7)
+- 🌀 **Git**
 
-Pastikan Anda memiliki perangkat lunak berikut sebelum memulai:
+Jika belum menginstal, jalankan perintah berikut:
 
-PHP (versi 7.4 ke atas)
-
-MySQL (versi 5.7 ke atas)
-
-Git
-
-
-Jika belum menginstalnya, Anda dapat mengikuti instruksi berikut:
-
+```sh
 sudo apt install php php-mysql
 sudo apt install mysql-server
 sudo apt install git
+```
+
+### 📥 Instalasi
+
+Clone repository proyek ini:
+
+```sh
 git clone https://github.com/BIBzzDev/xiirpl4_labib_perpustakaan.git
 cd xiirpl4_labib_perpustakaan
+```
+
+[🔝 Kembali ke Atas](##-daftar-isi)
+
+---
+
+## 📖 Penggunaan
+
+1. **Jalankan server lokal**:
+   ```sh
+   php -S localhost:8000
+   ```
+2. **Akses aplikasi melalui browser**:
+   ```
+   http://localhost:8000
+   ```
+
+[🔝 Kembali ke Atas](##-daftar-isi)
+
+---
+
+## 🗺️ Peta Jalan
+
+✅ **Fitur saat ini**
+- 📚 Manajemen buku
+- 🔄 Manajemen peminjaman
+- 👥 Manajemen pengguna
+
+🚧 **Fitur mendatang**
+- 📢 Sistem notifikasi
+- 📱 API untuk aplikasi mobile
+
+[🔝 Kembali ke Atas](##-daftar-isi)
+
+---
+
+## 🤝 Berkontribusi
+
+🎯 Kontribusi selalu disambut! Jika ingin membantu, silakan buat **pull request**.
+
+[🔝 Kembali ke Atas](##-daftar-isi)
+
+---
+
+## 📜 Lisensi
+
+Lisensi **MIT** – bebas digunakan dan dikembangkan.
+
+[🔝 Kembali ke Atas](##-daftar-isi)
+
+---
+
+## 📧 Kontak
+
+📨 **Email**: [muhammadlabib895@gmail.com](mailto:muhammadlabib895@gmail.com)
+🌐 **Website**: [https://bibzz.wuaze.com](https://bibzz.wuaze.com)
+
+[🔝 Kembali ke Atas](##-daftar-isi)
+
+---
+
+## 🙏 Ucapan Terima Kasih
+
+💙 Terima kasih kepada semua yang telah berkontribusi!
+
+[🔝 Kembali ke Atas](##-daftar-isi)
