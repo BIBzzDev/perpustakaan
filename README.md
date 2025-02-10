@@ -49,7 +49,6 @@ Aplikasi **Perpustakaan Digital** ini memiliki fitur utama untuk mengelola **buk
 
 Proyek ini **siap digunakan** untuk keperluan **ujian** maupun **implementasi nyata**.
 
-<a href="#-tentang-proyek">Kembali ke Atas</a>
 ---
 
 ## 🛠️ Dibuat Dengan
@@ -59,7 +58,7 @@ Proyek ini **siap digunakan** untuk keperluan **ujian** maupun **implementasi ny
 - 🎨 **Bootstrap** – Framework CSS untuk tampilan frontend
 - 🌀 **Git** – Version control untuk mengelola perubahan kode
 
-<a href="#-dibuat-dengan">Kembali ke Atas</a>
+
 ---
 
 ## 🚀 Memulai
