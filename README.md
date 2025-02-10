@@ -90,7 +90,7 @@ Clone repository proyek ini:
 git clone https://github.com/BIBzzDev/xiirpl4_labib_perpustakaan.git
 cd xiirpl4_labib_perpustakaan
 ```
-<a href="#-memulai">Kembali ke Atas</a>
+
 ---
 
 ## 📖 Penggunaan
@@ -103,7 +103,6 @@ cd xiirpl4_labib_perpustakaan
    ```
    http://localhost:8000
    ```
-<a href="#-penggunaan">Kembali ke Atas</a>
 ---
 
 ## 🗺️ Peta Jalan
@@ -116,21 +115,18 @@ cd xiirpl4_labib_perpustakaan
 🚧 **Fitur mendatang**
 - 📢 Sistem notifikasi
 - 📱 API untuk aplikasi mobile
-<a href="#-peta-jalan">Kembali ke Atas</a>
+
 ---
 
 ## 🤝 Berkontribusi
 
 🎯 Kontribusi selalu disambut! Jika ingin membantu, silakan buat **pull request**.
 
-<a href="#-berkontribusi">Kembali ke Atas</a>
 ---
 
 ## 📜 Lisensi
 
 Lisensi **MIT** – bebas digunakan dan dikembangkan.
-
-<a href="#-lisensi">Kembali ke Atas</a>
 
 ---
 
@@ -139,11 +135,8 @@ Lisensi **MIT** – bebas digunakan dan dikembangkan.
 📨 **Email**: [muhammadlabib895@gmail.com](mailto:muhammadlabib895@gmail.com)
 🌐 **Website**: [https://bibzz.wuaze.com](https://bibzz.wuaze.com)
 
-<a href="#-kontak">Kembali ke Atas</a>
 ---
 
 ## 🙏 Ucapan Terima Kasih
 
 💙 Terima kasih kepada semua yang telah berkontribusi!
-
-<a href="#-ucapan-terima-kasih">Kembali ke Atas</a>
