@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Perpustakaan</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="asset/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Normal Breadcrumb Begin -->
+    <section class="normal-breadcrumb set-bg" data-setbg="asset/normal-breadcrumb.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="normal__breadcrumb__text">
+                        <h2>Sign Up</h2>
+                        <p>Welcome to the official Perpustakaan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Normal Breadcrumb End -->
+
+   <section class="signup spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="login__form">
+                    <h3>Sign Up</h3>
+                    <!-- Menambahkan action ke proses_register.php -->
+                    <form action="proses_register.php" method="POST">
+                        <div class="input__item">
+                            <input type="email" name="email" placeholder="Email Kamu" required>
+                            <span class="icon_mail"></span>
+                        </div>
+                        <div class="input__item">
+                            <!-- Mengganti 'name' menjadi 'namalengkap' -->
+                            <input type="text" name="namalengkap" placeholder="Nama Panjang kamu" required>
+                            <span class="icon_profile"></span>
+                        </div>
+                        <div class="input__item">
+                            <input type="password" name="password" placeholder="Password" required>
+                            <span class="icon_lock"></span>
+                        </div>
+                        <div class="input__item">
+                            <!-- Menambahkan konfirmasi password -->
+                            <input type="password" name="password_confirmation" placeholder="Konfirmasi Password" required>
+                            <span class="icon_lock"></span>
+                        </div>
+                        <div class="input__item">
+                            <input type="text" name="alamat" placeholder="Alamat" required>
+                            <span class="icon_profile"></span>
+                        </div>
+                        <button type="submit" class="site-btn">Register Sekarang</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="login__register">
+                    <h3>Sudah Punya Akun?</h3>
+                    <a href="login.html" class="primary-btn">Login Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <footer class="footer">
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+                    <a href="./index.php"><img src="asset/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer__nav">
+                    <ul>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="buku_pinjaman.php">Buku Pinjaman</a></li>
+                        <li><a href="buku_koleksi.php">koleksi pribadi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Muhammad Labib All rights reserved</a></p>
+
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
